@@ -290,6 +290,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_data: true
 
 #fix
 futrue: true
