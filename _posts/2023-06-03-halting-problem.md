@@ -1,6 +1,6 @@
 ---
 layout: single
-title: halting-problem
+title: "halting-problem"
 categories: Computer science
 ---
 
