@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "halting-problem"
-categories: Computer-science
+categories: computer-science
 ---
 
 # 정지 문제
