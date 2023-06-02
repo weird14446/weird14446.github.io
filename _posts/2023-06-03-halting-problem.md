@@ -67,16 +67,21 @@ def func(program):
 func(func)
 ```
 
-이제 이 함수가 어떻게 될지 확인해보자.
-우선 func(func)가 정지한다고 해보자.
+이제 이 함수가 정지할 경우와 정지하지 않을 경우를 확인해보자.
 
-halt(func, func)는 True를 반환할 것이다. 그렇다면 무한루프에 진입하게 된다. 즉, func(func)는 무한루프에 진입한다. 하지만 halt(func, func)는 True를 반환했다. 즉, 정지한다고 답했다. 이는 모순이다.
+- **func(func)가 정지하는 경우**
 
-이제 반대로 func(func)가 정지하지 않는다고 해보자.
+    이 함수가 정지한다면 halt(func, func)는 True를 반환할 것이다. 그렇다면 무한루프에 진입하게 된다. 즉, func(func)는 무한루프에 진입한다. 
+    
+    하지만 halt(func, func)는 True를 반환했다. 즉, 정지한다고 답했다. 이는 모순이다.
 
-그렇다면 halt(func, func)는 False를 반환한다. 그리고 func(func)는 True를 반환한다.
+- **func(func)가 정지하지 않는 경우**
 
-여기서 문제가 생긴다. halt(func, func)는 False를 반환했다. 즉, func(func)는 어떤 무한루프에 진입한다. 이는 모순이다.
+    이제 반대로 func(func)가 정지하지 않는다고 해보자.
+
+    그렇다면 halt(func, func)는 False를 반환한다. 그리고 func(func)는 True를 반환한다.
+
+    여기서 문제가 생긴다. halt(func, func)는 False를 반환했다. 즉, func(func)는 어떤 무한루프에 진입한다. 이는 모순이다.
 
 이는 func 함수가 참도, 거짓도 될 수 없다는 것이므로, 모순이 발생한다.
 
