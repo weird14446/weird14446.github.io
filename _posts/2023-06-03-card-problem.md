@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "영화-\"네이든\"-카드문제"
-categories: computer-science
+categories: mathematics
+tag: [mathematics, computer-science]
 ---
 
 이산수학을 활용하여 풀 수 있는 간단한 문제다.
