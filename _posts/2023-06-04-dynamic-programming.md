@@ -29,7 +29,7 @@ $a_0=1$
 
 $a_1=1$
 
-$a_n=a_{n-1}+a_{n-2} \quad (n\in \left\{ 2, 3, 4, ... \right\})$
+$a_n=a_{n-1}+a_{n-2} \quad (n \geq 2)$
 
 ```java
 import java.util.Scanner;
