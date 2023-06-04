@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "halting-problem"
 categories: computer-science
 ---

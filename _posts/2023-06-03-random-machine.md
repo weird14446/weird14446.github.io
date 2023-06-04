@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "1%로 당첨되는 머신"
 categories: mathematics
 tag: [mathematics, computer-science]

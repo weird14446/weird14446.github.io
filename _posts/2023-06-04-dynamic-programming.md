@@ -1,8 +1,9 @@
 ---
-layout: single
+layout: post
 title: "동적 계획법"
 categories: computer-science
 tag: [mathematics, computer-science]
+use_math: true
 ---
 
 동적 계획법은 최적화 기법중 하나이다. (알고리즘보단 기법에 가깝다.)

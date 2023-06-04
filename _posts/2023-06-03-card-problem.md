@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: "영화-\"네이든\"-카드문제"
 categories: mathematics
 tag: [mathematics, computer-science]
