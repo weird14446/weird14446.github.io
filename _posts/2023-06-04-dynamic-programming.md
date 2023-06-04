@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "동적 계획법"
 categories: computer-science
 tag: [mathematics, computer-science]
@@ -25,10 +25,11 @@ use_math: true
 
 피보나치 수열의 정의는 다음과 같다.
 
-$
-a_0=1\\
-a_1=1\\
-a_n = a_{n-1} + a_{n-2} \quad (n\in\{2, 3, 4, ...\})$
+$a_0=1$
+
+$a_1=1$
+
+$a_n = a_{n-1} + a_{n-2} \quad (n\in\{2, 3, 4, ...\})$
 
 ```java
 import java.util.Scanner;
