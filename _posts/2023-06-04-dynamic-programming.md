@@ -3,6 +3,7 @@ layout: single
 title: "동적 계획법"
 categories: computer-science
 tag: [mathematics, computer-science]
+use_math: true
 ---
 
 동적 계획법은 최적화 기법중 하나이다. (알고리즘보단 기법에 가깝다.)
@@ -24,10 +25,11 @@ tag: [mathematics, computer-science]
 
 피보나치 수열의 정의는 다음과 같다.
 
-$
-a_0=1\\
-a_1=1\\
-a_n = a_{n-1} + a_{n-2} \quad (n\in\{2, 3, 4, ...\})$
+$a_0=1$
+
+$a_1=1$
+
+$a_n=a_{n-1}+a_{n-2} \quad (n \geq 2)$
 
 ```java
 import java.util.Scanner;
